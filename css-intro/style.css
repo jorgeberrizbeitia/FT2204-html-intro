@@ -1,0 +1,99 @@
+body {
+  background-color: beige;
+  font-size: 30px;
+  /* margin: 0; */
+  margin: 10px;
+}
+
+/* h2 {
+  color: lightblue
+}
+
+section {
+  background-color: blueviolet;
+} */
+
+
+#juguetes {
+  background-color: lightblue;
+}
+
+#videojuegos {
+  background-color: lightgreen;
+}
+
+#peliculas {
+  background-color: lightsalmon
+}
+
+.titulo-seccion {
+  color: darkblue;
+  text-decoration: underline;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 2px 2px brown;
+}
+
+
+
+#juguetes li {
+  color: purple;
+}
+
+#videojuegos li {
+  color: green;
+}
+
+#peliculas li {
+  color: darkred;
+}
+
+
+section {
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+  border: solid 2px brown;
+
+  padding-left: 30px;
+
+  margin-bottom: 20px;
+}
+
+body {
+  /* background-image: url("https://p4.wallpaperbetter.com/wallpaper/883/55/619/toys-colorful-lego-wallpaper-preview.jpg")  */
+  background-image: url("lego.jpg");
+  background-position: center;
+  /* background-size: cover; */
+}
+
+nav {
+  position: fixed;
+  top: 3px;
+  left: 40px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+nav button {
+  background-color: lightyellow;
+  color: brown;
+  font-size: 20px;
+}
+
+
+/* pseudoselectores */
+nav button:hover {
+  background-color: orange;
+}
+
+nav button:active {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
